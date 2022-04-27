@@ -80,6 +80,7 @@ UMapViewComponent* UMapFunctionLibrary::FindMapView(UObject* WorldContextObject,
 #endif
 
 	bool bConsiderPlayer = false;
+	bool bConsiderPlayer2 = false;
 	bool bConsiderMapBackground = false;
 	bool bConsiderMapFog = false;
 	bool bConsiderAllActors = false;
@@ -93,6 +94,9 @@ UMapViewComponent* UMapFunctionLibrary::FindMapView(UObject* WorldContextObject,
 		break;
 	case EMapViewSearchOption::OnPlayer:
 		bConsiderPlayer = true;
+		break;
+	case EMapViewSearchOption::OnPlayer2:
+		bConsiderPlayer2 = true;
 		break;
 	case EMapViewSearchOption::OnMapBackground:
 		bConsiderMapBackground = true;
@@ -112,6 +116,19 @@ UMapViewComponent* UMapFunctionLibrary::FindMapView(UObject* WorldContextObject,
 			return MapView;
 
 		APlayerController* PlayerController = UGameplayStatics::GetPlayerController(WorldContextObject, 0);
+		MapView = PlayerController ? PlayerController->FindComponentByClass<UMapViewComponent>() : nullptr;
+		if (MapView)
+			return MapView;
+	}
+
+	if (bConsiderPlayer2)
+	{
+		APawn* PlayerPawn = UGameplayStatics::GetPlayerPawn(WorldContextObject, 1);
+		UMapViewComponent* MapView = PlayerPawn ? PlayerPawn->FindComponentByClass<UMapViewComponent>() : nullptr;
+		if (MapView)
+			return MapView;
+
+		APlayerController* PlayerController = UGameplayStatics::GetPlayerController(WorldContextObject, 1);
 		MapView = PlayerController ? PlayerController->FindComponentByClass<UMapViewComponent>() : nullptr;
 		if (MapView)
 			return MapView;
