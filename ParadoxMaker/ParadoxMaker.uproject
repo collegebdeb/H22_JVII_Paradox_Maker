@@ -1,8 +1,15 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{9A9DEEE7-4E4D-5995-A00E-ADBA799D50B9}",
+	"EngineAssociation": "{6CCA4940-434F-8A67-2D19-288F083E7D1A}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "ParadoxMaker",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "MinimapPlugin",

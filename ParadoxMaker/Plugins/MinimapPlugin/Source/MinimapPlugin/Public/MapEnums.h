@@ -64,6 +64,8 @@ enum class EMapViewSearchOption : uint8
 	Any,
 	// The minimap will try to find a MapViewComponent on the first player's pawn or controller
 	OnPlayer,
+	// The minimap will try to find a MapViewComponent on the first second's pawn or controller
+	OnPlayer2,
 	// The minimap will try to find a MapViewComponent on a background actor
 	OnMapBackground,
 	// The minimap will try to find a MapViewComponent on a fog actor
