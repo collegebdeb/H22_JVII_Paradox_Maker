@@ -23,7 +23,7 @@ class UUserWidget;
 #endif
 #define MINIMAPPLUGIN_MapIconComponent_generated_h
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_22_DELEGATE \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_22_DELEGATE \
 struct _Script_MinimapPlugin_eventMapIconClickedSignature_Parms \
 { \
 	UMapIconComponent* MapIcon; \
@@ -38,7 +38,7 @@ static inline void FMapIconClickedSignature_DelegateWrapper(const FMulticastScri
 }
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_21_DELEGATE \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_21_DELEGATE \
 struct _Script_MinimapPlugin_eventMapIconHoverEndSignature_Parms \
 { \
 	UMapIconComponent* MapIcon; \
@@ -51,7 +51,7 @@ static inline void FMapIconHoverEndSignature_DelegateWrapper(const FMulticastScr
 }
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_20_DELEGATE \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_20_DELEGATE \
 struct _Script_MinimapPlugin_eventMapIconHoverStartSignature_Parms \
 { \
 	UMapIconComponent* MapIcon; \
@@ -64,7 +64,7 @@ static inline void FMapIconHoverStartSignature_DelegateWrapper(const FMulticastS
 }
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_19_DELEGATE \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_19_DELEGATE \
 struct _Script_MinimapPlugin_eventMapIconDestroyedSignature_Parms \
 { \
 	UMapIconComponent* MapIcon; \
@@ -77,7 +77,7 @@ static inline void FMapIconDestroyedSignature_DelegateWrapper(const FMulticastSc
 }
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_18_DELEGATE \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_18_DELEGATE \
 struct _Script_MinimapPlugin_eventMapIconLeftViewSignature_Parms \
 { \
 	UMapIconComponent* MapIcon; \
@@ -92,7 +92,7 @@ static inline void FMapIconLeftViewSignature_DelegateWrapper(const FMulticastScr
 }
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_17_DELEGATE \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_17_DELEGATE \
 struct _Script_MinimapPlugin_eventMapIconEnteredViewSignature_Parms \
 { \
 	UMapIconComponent* MapIcon; \
@@ -107,7 +107,7 @@ static inline void FMapIconEnteredViewSignature_DelegateWrapper(const FMulticast
 }
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_16_DELEGATE \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_16_DELEGATE \
 struct _Script_MinimapPlugin_eventMapIconAppearanceChangedSignature_Parms \
 { \
 	UMapIconComponent* MapIcon; \
@@ -120,7 +120,7 @@ static inline void FMapIconAppearanceChangedSignature_DelegateWrapper(const FMul
 }
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_15_DELEGATE \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_15_DELEGATE \
 struct _Script_MinimapPlugin_eventMapIconMaterialInstancesChangedSignature_Parms \
 { \
 	UMapIconComponent* MapIcon; \
@@ -133,7 +133,7 @@ static inline void FMapIconMaterialInstancesChangedSignature_DelegateWrapper(con
 }
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_14_DELEGATE \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_14_DELEGATE \
 struct _Script_MinimapPlugin_eventMapIconMaterialChangedSignature_Parms \
 { \
 	UMapIconComponent* MapIcon; \
@@ -146,8 +146,8 @@ static inline void FMapIconMaterialChangedSignature_DelegateWrapper(const FMulti
 }
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_SPARSE_DATA
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_RPC_WRAPPERS \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_SPARSE_DATA
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execReceiveClicked); \
 	DECLARE_FUNCTION(execReceiveHoverEnd); \
@@ -198,7 +198,7 @@ static inline void FMapIconMaterialChangedSignature_DelegateWrapper(const FMulti
 	DECLARE_FUNCTION(execSetIconMaterialForUMG);
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_RPC_WRAPPERS_NO_PURE_DECLS \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execReceiveClicked); \
 	DECLARE_FUNCTION(execReceiveHoverEnd); \
@@ -249,7 +249,7 @@ static inline void FMapIconMaterialChangedSignature_DelegateWrapper(const FMulti
 	DECLARE_FUNCTION(execSetIconMaterialForUMG);
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_INCLASS_NO_PURE_DECLS \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMapIconComponent(); \
 	friend struct Z_Construct_UClass_UMapIconComponent_Statics; \
@@ -258,7 +258,7 @@ public: \
 	DECLARE_SERIALIZER(UMapIconComponent)
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_INCLASS \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_INCLASS \
 private: \
 	static void StaticRegisterNativesUMapIconComponent(); \
 	friend struct Z_Construct_UClass_UMapIconComponent_Statics; \
@@ -267,7 +267,7 @@ public: \
 	DECLARE_SERIALIZER(UMapIconComponent)
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_STANDARD_CONSTRUCTORS \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMapIconComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMapIconComponent) \
@@ -280,7 +280,7 @@ private: \
 public:
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_ENHANCED_CONSTRUCTORS \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UMapIconComponent(UMapIconComponent&&); \
@@ -291,7 +291,7 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMapIconComponent)
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_PRIVATE_PROPERTY_OFFSET \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__IconCategory() { return STRUCT_OFFSET(UMapIconComponent, IconCategory); } \
 	FORCEINLINE static uint32 __PPO__IconTexture() { return STRUCT_OFFSET(UMapIconComponent, IconTexture); } \
 	FORCEINLINE static uint32 __PPO__IconMaterial_UMG() { return STRUCT_OFFSET(UMapIconComponent, IconMaterial_UMG); } \
@@ -322,27 +322,27 @@ public: \
 	FORCEINLINE static uint32 __PPO__ObjectiveArrowMaterialInstances_Canvas() { return STRUCT_OFFSET(UMapIconComponent, ObjectiveArrowMaterialInstances_Canvas); }
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_28_PROLOG
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_GENERATED_BODY_LEGACY \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_28_PROLOG
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_PRIVATE_PROPERTY_OFFSET \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_SPARSE_DATA \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_RPC_WRAPPERS \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_INCLASS \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_STANDARD_CONSTRUCTORS \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_PRIVATE_PROPERTY_OFFSET \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_SPARSE_DATA \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_RPC_WRAPPERS \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_INCLASS \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_GENERATED_BODY \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_PRIVATE_PROPERTY_OFFSET \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_SPARSE_DATA \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_RPC_WRAPPERS_NO_PURE_DECLS \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_INCLASS_NO_PURE_DECLS \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_ENHANCED_CONSTRUCTORS \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_PRIVATE_PROPERTY_OFFSET \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_SPARSE_DATA \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_RPC_WRAPPERS_NO_PURE_DECLS \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_INCLASS_NO_PURE_DECLS \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h_31_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -350,7 +350,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> MINIMAPPLUGIN_API UClass* StaticClass<class UMapIconComponent>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h
+#define CURRENT_FILE_ID ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapIconComponent_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

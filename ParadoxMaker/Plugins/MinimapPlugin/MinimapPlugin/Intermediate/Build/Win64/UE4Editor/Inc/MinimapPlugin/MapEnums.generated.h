@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define MINIMAPPLUGIN_MapEnums_generated_h
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapEnums_h
+#define CURRENT_FILE_ID ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapEnums_h
 
 
 #define FOREACH_ENUM_EMAPVIEWROTATIONMODE(op) \

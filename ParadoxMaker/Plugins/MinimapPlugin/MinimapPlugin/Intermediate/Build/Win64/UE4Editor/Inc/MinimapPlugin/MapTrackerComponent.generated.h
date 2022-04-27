@@ -18,7 +18,7 @@ struct FVector;
 #endif
 #define MINIMAPPLUGIN_MapTrackerComponent_generated_h
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_21_DELEGATE \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_21_DELEGATE \
 struct _Script_MinimapPlugin_eventMapRevealerUnregisteredSignature_Parms \
 { \
 	UMapRevealerComponent* MapRevealer; \
@@ -31,7 +31,7 @@ static inline void FMapRevealerUnregisteredSignature_DelegateWrapper(const FMult
 }
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_20_DELEGATE \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_20_DELEGATE \
 struct _Script_MinimapPlugin_eventMapRevealerRegisteredSignature_Parms \
 { \
 	UMapRevealerComponent* MapRevealer; \
@@ -44,7 +44,7 @@ static inline void FMapRevealerRegisteredSignature_DelegateWrapper(const FMultic
 }
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_19_DELEGATE \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_19_DELEGATE \
 struct _Script_MinimapPlugin_eventMapFogUnregisteredSignature_Parms \
 { \
 	AMapFog* MapFog; \
@@ -57,7 +57,7 @@ static inline void FMapFogUnregisteredSignature_DelegateWrapper(const FMulticast
 }
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_18_DELEGATE \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_18_DELEGATE \
 struct _Script_MinimapPlugin_eventMapFogRegisteredSignature_Parms \
 { \
 	AMapFog* MapFog; \
@@ -70,7 +70,7 @@ static inline void FMapFogRegisteredSignature_DelegateWrapper(const FMulticastSc
 }
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_17_DELEGATE \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_17_DELEGATE \
 struct _Script_MinimapPlugin_eventMapBackgroundUnregisteredSignature_Parms \
 { \
 	AMapBackground* MapBackground; \
@@ -83,7 +83,7 @@ static inline void FMapBackgroundUnregisteredSignature_DelegateWrapper(const FMu
 }
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_16_DELEGATE \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_16_DELEGATE \
 struct _Script_MinimapPlugin_eventMapBackgroundRegisteredSignature_Parms \
 { \
 	AMapBackground* MapBackground; \
@@ -96,7 +96,7 @@ static inline void FMapBackgroundRegisteredSignature_DelegateWrapper(const FMult
 }
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_15_DELEGATE \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_15_DELEGATE \
 struct _Script_MinimapPlugin_eventMapIconUnregisteredSignature_Parms \
 { \
 	UMapIconComponent* MapIcon; \
@@ -109,7 +109,7 @@ static inline void FMapIconUnregisteredSignature_DelegateWrapper(const FMulticas
 }
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_14_DELEGATE \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_14_DELEGATE \
 struct _Script_MinimapPlugin_eventMapIconRegisteredSignature_Parms \
 { \
 	UMapIconComponent* MapIcon; \
@@ -122,8 +122,8 @@ static inline void FMapIconRegisteredSignature_DelegateWrapper(const FMulticastS
 }
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_SPARSE_DATA
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_RPC_WRAPPERS \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_SPARSE_DATA
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGetMapRevealers); \
 	DECLARE_FUNCTION(execGetFogRevealedFactor); \
@@ -133,7 +133,7 @@ static inline void FMapIconRegisteredSignature_DelegateWrapper(const FMulticastS
 	DECLARE_FUNCTION(execGetMapIcons);
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execGetMapRevealers); \
 	DECLARE_FUNCTION(execGetFogRevealedFactor); \
@@ -143,7 +143,7 @@ static inline void FMapIconRegisteredSignature_DelegateWrapper(const FMulticastS
 	DECLARE_FUNCTION(execGetMapIcons);
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_INCLASS_NO_PURE_DECLS \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMapTrackerComponent(); \
 	friend struct Z_Construct_UClass_UMapTrackerComponent_Statics; \
@@ -152,7 +152,7 @@ public: \
 	DECLARE_SERIALIZER(UMapTrackerComponent)
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_INCLASS \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_INCLASS \
 private: \
 	static void StaticRegisterNativesUMapTrackerComponent(); \
 	friend struct Z_Construct_UClass_UMapTrackerComponent_Statics; \
@@ -161,7 +161,7 @@ public: \
 	DECLARE_SERIALIZER(UMapTrackerComponent)
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_STANDARD_CONSTRUCTORS \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMapTrackerComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMapTrackerComponent) \
@@ -174,7 +174,7 @@ private: \
 public:
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_ENHANCED_CONSTRUCTORS \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UMapTrackerComponent(UMapTrackerComponent&&); \
@@ -185,34 +185,34 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMapTrackerComponent)
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_PRIVATE_PROPERTY_OFFSET \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__MapIcons() { return STRUCT_OFFSET(UMapTrackerComponent, MapIcons); } \
 	FORCEINLINE static uint32 __PPO__MapBackgrounds() { return STRUCT_OFFSET(UMapTrackerComponent, MapBackgrounds); } \
 	FORCEINLINE static uint32 __PPO__MapFogs() { return STRUCT_OFFSET(UMapTrackerComponent, MapFogs); } \
 	FORCEINLINE static uint32 __PPO__MapRevealers() { return STRUCT_OFFSET(UMapTrackerComponent, MapRevealers); }
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_26_PROLOG
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_GENERATED_BODY_LEGACY \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_26_PROLOG
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_PRIVATE_PROPERTY_OFFSET \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_SPARSE_DATA \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_RPC_WRAPPERS \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_INCLASS \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_STANDARD_CONSTRUCTORS \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_PRIVATE_PROPERTY_OFFSET \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_SPARSE_DATA \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_RPC_WRAPPERS \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_INCLASS \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_GENERATED_BODY \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_PRIVATE_PROPERTY_OFFSET \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_SPARSE_DATA \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_INCLASS_NO_PURE_DECLS \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_ENHANCED_CONSTRUCTORS \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_PRIVATE_PROPERTY_OFFSET \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_SPARSE_DATA \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_INCLASS_NO_PURE_DECLS \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h_29_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -220,7 +220,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> MINIMAPPLUGIN_API UClass* StaticClass<class UMapTrackerComponent>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h
+#define CURRENT_FILE_ID ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapTrackerComponent_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

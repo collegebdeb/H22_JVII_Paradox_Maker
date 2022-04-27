@@ -20,7 +20,7 @@ struct FVector;
 #endif
 #define MINIMAPPLUGIN_MapFog_generated_h
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_12_DELEGATE \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_12_DELEGATE \
 struct _Script_MinimapPlugin_eventMapFogMaterialChangedSignature_Parms \
 { \
 	AMapFog* MapFog; \
@@ -33,8 +33,8 @@ static inline void FMapFogMaterialChangedSignature_DelegateWrapper(const FMultic
 }
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_SPARSE_DATA
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_RPC_WRAPPERS \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_SPARSE_DATA
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnMapRevealerUnregistered); \
 	DECLARE_FUNCTION(execOnMapRevealerRegistered); \
@@ -48,7 +48,7 @@ static inline void FMapFogMaterialChangedSignature_DelegateWrapper(const FMultic
 	DECLARE_FUNCTION(execGetFogAtLocation);
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnMapRevealerUnregistered); \
 	DECLARE_FUNCTION(execOnMapRevealerRegistered); \
@@ -62,7 +62,7 @@ static inline void FMapFogMaterialChangedSignature_DelegateWrapper(const FMultic
 	DECLARE_FUNCTION(execGetFogAtLocation);
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_INCLASS_NO_PURE_DECLS \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMapFog(); \
 	friend struct Z_Construct_UClass_AMapFog_Statics; \
@@ -71,7 +71,7 @@ public: \
 	DECLARE_SERIALIZER(AMapFog)
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_INCLASS \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesAMapFog(); \
 	friend struct Z_Construct_UClass_AMapFog_Statics; \
@@ -80,7 +80,7 @@ public: \
 	DECLARE_SERIALIZER(AMapFog)
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_STANDARD_CONSTRUCTORS \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMapFog(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMapFog) \
@@ -93,7 +93,7 @@ private: \
 public:
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_ENHANCED_CONSTRUCTORS \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AMapFog(AMapFog&&); \
@@ -104,7 +104,7 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMapFog)
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_PRIVATE_PROPERTY_OFFSET \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__FogRenderTargetSize() { return STRUCT_OFFSET(AMapFog, FogRenderTargetSize); } \
 	FORCEINLINE static uint32 __PPO__FogMaterial_UMG() { return STRUCT_OFFSET(AMapFog, FogMaterial_UMG); } \
 	FORCEINLINE static uint32 __PPO__FogMaterial_Canvas() { return STRUCT_OFFSET(AMapFog, FogMaterial_Canvas); } \
@@ -129,27 +129,27 @@ public: \
 	FORCEINLINE static uint32 __PPO__MapRevealers() { return STRUCT_OFFSET(AMapFog, MapRevealers); }
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_14_PROLOG
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_GENERATED_BODY_LEGACY \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_14_PROLOG
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_PRIVATE_PROPERTY_OFFSET \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_SPARSE_DATA \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_RPC_WRAPPERS \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_INCLASS \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_STANDARD_CONSTRUCTORS \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_PRIVATE_PROPERTY_OFFSET \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_SPARSE_DATA \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_RPC_WRAPPERS \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_INCLASS \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_GENERATED_BODY \
+#define ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_PRIVATE_PROPERTY_OFFSET \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_SPARSE_DATA \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_INCLASS_NO_PURE_DECLS \
-	HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_ENHANCED_CONSTRUCTORS \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_PRIVATE_PROPERTY_OFFSET \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_SPARSE_DATA \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_INCLASS_NO_PURE_DECLS \
+	ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -157,7 +157,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> MINIMAPPLUGIN_API UClass* StaticClass<class AMapFog>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID HostProject_Plugins_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h
+#define CURRENT_FILE_ID ParadoxMaker_Plugins_MinimapPlugin_MinimapPlugin_Source_MinimapPlugin_Public_MapFog_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
